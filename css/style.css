@@ -58,7 +58,237 @@
 
 /********************************/
 /*Mohamed*/
+/*start blog*/
+#blog{
+    padding-top: 100px 
+}
+.toph{
+    line-height: 1.2;
+    font-size: 44px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+.topp{
+    margin: 5px auto;
+    max-width: 50%;
+}
+@media (max-width: 767px){
+    .topp{
+        max-width: 90%;
+    }
+}
+#blog .container .row{
+    margin-top: 50px;
+}
+#blog .container .card{
+    border: none;
+    margin-bottom: 50px;
+}
+#blog .container .card img{
+    border-radius: 0;
+    height: 300px;
+}
+#blog .container .card a{
+    text-decoration: none;
+}
+#blog .card-body h4{
+    padding: 10px 0;
+}
+#blog .card-body h4 a{
+    color: rgba(0, 0, 0, 0.9);
+    line-height: 1.5;
+    font-weight: 600;
+    transition: 600ms all;
+}
+#blog .card-body h4 a:hover{
+    color: #0d6efd;
+}
+#blog .card-body .link{
+    margin: 10px auto
+}
+#blog .card-body .link a{
+    color: #0d6efd;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: 600ms all;
+}
+#blog .card-body .card-text{
+    margin: 0;
+    max-width: 100%;
+}
 
+
+#blog #freelancing{
+    background-image: url(../xbg_1.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+#blog #freelancing .opacity{
+    background-color: #0d6efd;
+    opacity: .7;
+    height: 100%;
+    padding: 100px 0;
+}
+#blog #freelancing h2{
+    font-size: 40px;
+    font-weight: 900;
+    padding: 10px 0;
+}
+#blog #freelancing h2 span{
+    color: #a0f669;
+}
+#blog #freelancing p{
+    margin: 5px auto;
+    max-width: 40%;
+}
+#blog #freelancing button{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+#blog #freelancing button:hover{
+    color: #000;
+    transition: 600ms all;
+}
+/*end blog*/
+
+
+
+
+/*start contact*/
+#contact{
+    padding-top: 50px;
+}
+
+#contact .first{
+    padding: 100px 10px 50px;
+}
+@media (min-width: 768px) {
+    #contact .first .card{
+        height: 45vh;
+        width: 23%;
+    }
+}
+#contact .card{
+    border: none;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+#contact .card span{
+    background-color: #0d6efd;
+    color: #fff;
+    font-size: 30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    padding-top: 30px;
+    text-align: center;
+    margin: 5px auto;
+}
+#contact .card h4{
+    padding: 10px 0;
+}
+#contact .card a{
+    text-decoration: none;
+    color: #3e64ff;
+}
+#contact .image{
+    background-image: url(../xabout.jpg);
+    background-position: top center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+#contact form{
+    padding: 40px 0;
+}
+#contact form .form-group:not(:last-of-type){
+    padding-bottom: 20px;
+}
+#contact form input{
+    padding: 10px;
+}
+#contact form button{
+    font-size: 12px;
+}
+#contact form button:hover{
+    color: #000;
+}
+/*end contact*/
+
+
+
+
+
+/*Start footer*/
+footer{
+    background-color: #000;
+    padding: 7rem 0;
+}
+footer h4{
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 10px;
+    padding-left: 0;
+    text-transform: capitalize;
+}
+footer p, footer a{
+    color: rgba(255,255,255,.7);
+    line-height: 1.8;
+}
+footer a{
+    text-decoration: none;
+}
+footer ul{
+    padding-left: 0;
+}
+footer a:hover{
+    color: rgba(255,255,255,.7);
+}
+footer .social{
+    margin-top: 50px;
+}footer ul li{
+    margin-bottom: 10px;
+}
+footer .social li{
+    margin-right: 15px;
+    width: 50px;
+    height: 50px;
+    padding-top: 12px ;
+    border-radius: 50%;
+    background-color: rgba(255,255,255,.1);
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+footer .fa-long-arrow-alt-right{
+    margin-right: 10px;
+}
+footer ul p{
+    margin-bottom: 0;
+}
+footer .map{
+    display: inline-block;
+    width: 30px;
+    margin-right: 20px;
+}
+footer .lasti{
+    margin-right: 20px;
+}
+footer #Colorlib{
+    padding-top: 100px;
+    font-size: 20px;
+}
+footer #Colorlib a:hover{
+    color: #fff;
+    transition: 300ms all;
+}
+/*End footer*/
 
 
 
